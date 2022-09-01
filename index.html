@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <link rel="stylesheet" href="reset.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        
+        </head>
+            <header>
+                <div>
+                   
+                    <img class="alura-icon" src="imagenes/Vector.png" alt="Logo-Alura">
+                    <title class="titulo"> Encriptador 1.0</title>
+                </div>
+            </header>
+            <body>
+                <h1>E n c r i p t a d o r</h1>
+                <main>
+
+                    <section>
+                            <textarea class="input-texto" cols="40" rows="15" placeholder="Ingrese el Texto"></textarea>
+                                <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+
+                                <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+
+                                
+                            </div>
+                        </section>
+
+                        <section class="mensaje-boton">
+
+                            <textarea class="mensaje" cols="40" rows="15"></textarea>
+                            <button class="copiar" onclick="btnCopiar()">Copiar</button>
+
+                        </section>
+                    </main>
+                <script src="script.js"></script>
+            </body>
+        <footer>
+            <a class="reglas">
+                &#9432; No se permite Mayuscula ni Acentos</a>
+        </footer>
+</html>

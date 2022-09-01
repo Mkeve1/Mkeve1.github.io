@@ -1,0 +1,78 @@
+body{
+     width: 940px;
+     background:radial-gradient(blue,rgb(60, 255, 0))
+    
+}
+
+header{
+    margin-left: 255px ;
+    margin-top: 50px;
+    
+}
+
+h1{
+    text-align: center;
+    margin-left: 300px;
+    font-family: 'Anton', sans-serif;
+    background:radial-gradient(blue,rgb(60, 255, 0));
+    color:white;
+    border-radius: 50px;
+    
+    
+
+}
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+
+.input-texto{ 
+    width: 600px;
+    height: 400px;
+    margin-left: 150px;
+    font-family: 'Anton', sans-serif;
+    border-radius: 5px;
+    padding: 1em;
+    
+
+
+}
+.mensaje{
+    height: 400px;
+    background-image: url(Imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position-y: 100px;
+    font-family: 'Anton', sans-serif;
+    border-radius: 5px;
+    padding: 1em;
+
+}
+.encriptar  {
+    margin-left: 150px;   
+    background-color: darkblue;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: 'Anton', sans-serif;
+
+}
+.desencriptar{
+    margin-left: 10px;
+    background-color: #888888;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: 'Anton', sans-serif;  
+}
+.copiar{  
+    background-color: darkblue;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: 'Anton', sans-serif;
+}
+.reglas{
+    margin-left: 230px;
+}
